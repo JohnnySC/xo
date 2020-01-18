@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">XOAndroid</string>
+    <string name="new_game">New Game</string>
+    <string name="host_hint">Host</string>
+    <string name="cancel">cancel</string>
+    <string name="save">save</string>
+    <string name="empty_host_message">Host is empty</string>
+    <string name="generic_error_message">Something went wrong!</string>
+    <string name="waiting_second_player_message">Waiting for second player</string>
+    <string name="your_turn_message">It is your turn</string>
+    <string name="waiting_second_player_to_make_step_message">Waiting second player to make step</string>
+    <string name="you_win_message">You won!</string>
+    <string name="you_lose_message">You lost!</string>
+    <string name="draw_message">Draw! Try new game!</string>
+    <string name="please_restart_app_message">Please, restart app to start a game</string>
+</resources>

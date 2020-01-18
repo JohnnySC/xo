@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+        <Button
+                android:layout_gravity="start"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/cancelButton"
+                android:text="@string/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:text="@string/save"
+                android:id="@+id/saveButton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:hint="@string/host_hint"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/hostEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
